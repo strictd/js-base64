@@ -1,6 +1,6 @@
 {
   "name": "@strictd/js-base64",
-  "version": "2.1.10",
+  "version": "2.1.11",
   "description": "Yet another Base64 transcoder in pure-JS",
   "main": "base64.js",
   "directories": {
