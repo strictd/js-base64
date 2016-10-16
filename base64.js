@@ -167,6 +167,9 @@
         decode: decode,
         noConflict: noConflict
     };
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports.Base64 = global.Base64;
+    }
     // if ES5 is available, make Base64.extendString() available
     if (typeof Object.defineProperty === 'function') {
         var noEnum = function(v){
